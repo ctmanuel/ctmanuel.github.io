@@ -1,0 +1,69 @@
+/************LINK PROPERTIES**************************/
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:##BF00FF;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;} 
+
+/************FONT STYLE AND SIZE**************************/
+body {font-size:1.25em;}
+h1 {font-size:2.5em;}
+h2 {font-size:1.875em;}
+p {font-size:0.875em;}
+
+body{font-family: "Arial Black", Gadget, sans-serif;}
+footer{color:#FFFFFF;}
+
+/************IMAGE PROPERTIES**************************/
+div.img
+{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #0000ff;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+  background-color:#FFFFFF;
+}	
+div.img img
+{
+  display: inline;
+  margin: 5px;
+  border: 1px solid #ffffff;
+}
+div.img a:hover img {border: 1px solid #0000ff;}
+div.desc
+{
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+/************SIDE MENU PROPERTIES********************/
+div.menuItem
+{
+height: auto;
+width: auto;
+border: 2.5px solid #000000;
+color: #FFFFFF;
+background-color: #58D3F7;
+z-index: 10;
+}
+
+div.menuItem:hover
+{
+ background-color:#FFFFFF;
+ color: #000000;
+}
+/****************FOOTER PROPERTIES**********************/
+#footer {
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+  color: #FFFFFF;
+}
