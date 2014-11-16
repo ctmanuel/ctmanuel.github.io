@@ -92,7 +92,7 @@ function parseFile()
 {
 	// get the spline file
 	var request = new XMLHttpRequest();
-	request.open("GET", "http://users.wpi.edu/~ctmanuel/CS4732/Project1/spline1.txt", true);
+	request.open("GET", "http://ctmanuel.github.io/CS4732/Project1/spline1.txt", true);
 	request.send();
 
 	//when the file is loaded, us this callback function
