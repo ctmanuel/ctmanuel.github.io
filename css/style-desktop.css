@@ -153,29 +153,29 @@
 	}
 
 		#banner h2 {
-			position: absolute;
+			position: relative;
 			z-index: 1;
 			width: 100%;
-			top: 100px;
-			left: 0;
+			top: 0px;
+			left: -10px;
 			font-size: 3.3em;
 			color: #fff;
-			text-align: center;
+			text-align: right;
 			letter-spacing: -2px;
 		}
 		
 		#banner span {
 			display: block;
-			position: absolute;
+			position: relative;
 			z-index: 1;
 			width: 100%;
-			bottom: 105px;
-			left: 0;
+			bottom: 0px;
+			left: -10px;
 			font-size: 1.6em;
 			color: #fff;
-			text-align: center;
+			text-align: right;
 			letter-spacing: -1px;
-			text-transform: lowercase;
+			/*text-transform: lowercase;*/
 			opacity: 0.8;
 		}
 
