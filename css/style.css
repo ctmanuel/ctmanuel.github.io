@@ -14,8 +14,8 @@
 		font-size: 13.5pt;
 		font-family: sans-serif;
 		background-color: #e3e9dc;
-		font-family: 'Ubuntu Condensed', sans-serif;
-		color: #878e83;
+		font-family: 'Calibri', sans-serif;
+		color: #000000;
 		letter-spacing: -1px;
 	}
 
@@ -47,6 +47,9 @@
 	h4 {
 		font-size: 1em;
 	}
+	h4.bld{
+		font: bold 20px Georgia, serif;
+	}
 
 	p, ul {
 		margin-bottom: 1.25em;
@@ -55,7 +58,10 @@
 	p {
 		line-height: 1.8em;
 	}
-
+	p.bld {
+	font: bold 20px Georgia, serif;
+	}
+	
 	strong {
 		color: #474e43;
 	}
@@ -71,6 +77,10 @@
 
 	ul {
 		padding: 0.25em 0 0 0;
+	}
+	ul.f{
+		padding: 0.25em 0 0 0;
+		list-style-image: url('images/Facebook.jpg');
 	}
 
 	a {
